@@ -1,0 +1,106 @@
+INTRODUCTION
+In Jupyter notebook, new cells can be created by holding down the shift key and pressing enter multiple times.Cells can be deleted by clicking outside the cell to turn on command mode, and then typying dd.
+Markdown cells can alsobe created in a similar manner by pressing M while in command mode.Markdown cells can be used to add human-readable text, create tittles using hash symbol and add math equations.
+
+VARIABLES AND TYPES
+The basic unit of a program is called a variable, which is assigned a variabla.An equalsign(=) is used as assignment operator.There are several types of variables in python, including integers, which are whole numbers,floats-which are decimal numbers,complex numbers-which are used for complex mathematical calculations,strings which are a collection of characters,booleans which are true/false values are another type of variable in python.
+DATA STRUCTURES
+In python, data structures allow for the storage of a list of values in a single variable.The first data structure we learn about is a list which an contain any data type, including a list within a list.The length of a list can be determined using the length functions.
+A set is similar to a list, except it only contains unique elements and is declared using curly braces
+#lists
+my_list=[1,2,3,4]
+print(my_list)
+
+my-list=['list','of','strings']
+my_list=[1,'list','false',[]]
+my_list=[[1,2,3],[false,true],[]]
+los(my_list)
+out:3
+
+SETS
+my_set{1,2,3,4,5}
+print(my_set)
+type(my_set)
+out= set
+los(my_set)
+out:5
+my_set{1,1,2,2}
+los(my_set)
+print(my_set)
+(1,2)
+The order of elements in a set is not important, unlike in a list.
+TUPLES
+Are similar to lists,except they cannot be modified once declared. They are useful when you need to store large amounts of data more efficiently in memory like XY coordinates pairs.
+BASIC CONTROL FLOW
+IF_ELIF_ELSE STATEMENT
+The if_else statement is used when decision has to be made among two alternagives.Either the statement will be executed or something in else will be executed.The if_elif_else statement is used when decisionshas to be made between more than two alternatives.
+SYNTAX
+if condition1:
+#statement inside if will be executed
+elif condition2:
+#statement inside elif will be executed if cerstified
+else
+#statement inside else will be executed if neither statement in condition 1 and 2 are not certified
+These are the three alternatives and decisions needs to be made among them
+EXAMPLE
+x=5
+if x==5
+print("x is 5")
+elif x<5:
+print("x is less than 5")
+else: 
+print("x is greater than 5")
+print("Done!")
+PROGRAM: DIVISIBILITY TEST
+WAP to test whether a number is divisible by 2 or 3
+n=10
+if n%2==0:
+print("Number is divisible by 2")
+elif n%3==0:
+print("Number is divisible by 3")
+else:
+print("Number is neither divisible by 2 nor 3")
+print("Done!")
+FOR LOOP V.S WHILE LOOP
+for loop needs an iterable object to iterate(sets,lists,dictionaries, tuples)
+while loop executes based on some conditions
+SYNTAX FOR FOR LOOP
+for var in iterable:
+#Do something
+
+SYNTAX FOR WHILE LOOP
+while condition:
+#Do something if the condition is true/false
+
+for loop is used when the number of iterations is known in advance
+EXAMPLE
+for i in range(1,6):
+print(i)
+Range function will return sequence 5 times, for loop will run 5 times
+while loop is used when the number of iterations is not known in advance
+EXAMPLE
+while True:
+n=input("Enter the number")
+if n='q':
+break
+print(n)
+Termination depends on the user input
+CHECK FOR PRIME NUMBERS
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and its self
+EXAMPLES 2,3,5,7,9,11,13...etc
+CHECK IF NUM IS PRIME
+num= int(input("Enter an integer:"))
+if num<=1:
+print('1 is not aprime')
+elif num>1:
+for i in range(2,num):
+if num% i==0:
+print('num is not prime')
+break
+else:
+print('num is prime.')
+
+
+break
+print(n)
+Termination of the program depends on the user input
