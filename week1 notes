@@ -7,6 +7,43 @@ The basic unit of a program is called a variable, which is assigned a variabla.A
 DATA STRUCTURES
 In python, data structures allow for the storage of a list of values in a single variable.The first data structure we learn about is a list which an contain any data type, including a list within a list.The length of a list can be determined using the length functions.
 A set is similar to a list, except it only contains unique elements and is declared using curly braces
+LISTS 
+Are used to store multiple items in a single variable
+List items are ordered,changeable and allow duplicate values
+List items are indexed,the first item has index[0],second item has index[1]
+ORDERED ITEMS-means that the items have a defined order and order will not change
+CHANGEABLE-means we can change,add and remove items in a list after it has been created.
+ALLOW DUPLICATES- since list are indexed, list can have items with the same value
+EXAMPLE
+thislist=["apple","banana","cherry","apple","cherry"]
+print(thislist)
+
+LIST LENGTH-to determine too many items a list has, use the len() function.
+eg thislist=["appple","banana","cherry",]
+print(len(thislist))
+
+NEGATIVE INDEXING-means start from the end, -1 refers to the last item,-2 refers to the second last item
+EXAMPLE
+print the last item of the list
+thislist=["apple","banana","cherry"]
+print(thislist[-1])
+
+RANGE OF INDEXES
+You can specify a range of indexes by specifying where to start and where to end the range.When specifying a range, the return value will be a new list with the specified items
+NB the search will start at 2(included) and end at 5(not included)
+
+CHECK IF ITEM EXISTS
+To determine if a specific item is present in a list use the n keyword:
+#Checking if element 7 is present in the given list or not
+lst[1,6,3,5,3,4]
+#If element present then return exist otherwise not exist
+if i in list:
+print("exist")
+else:
+print("not exist")
+
+CHANGE THE VALUE-to change the value of a specific item,refer to the index number:
+
 #lists
 my_list=[1,2,3,4]
 print(my_list)
@@ -104,3 +141,4 @@ print('num is prime.')
 break
 print(n)
 Termination of the program depends on the user input
+
