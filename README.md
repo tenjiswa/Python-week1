@@ -1,3 +1,4 @@
+
 # Python-week1
 BASIC DATA TYPES
 ints -1,2,0,15000323 are examples of integers in python there is no limit on the size of intergers
@@ -100,6 +101,56 @@ len(cars)
 THE TUPLE() CONSTRUCTOR
 Alternative way to create a tuple
 example cars=tuple(( 'audi','mercedes','bmw'))
+
+USING A WHILE LOOP:Python use while loop and len() function to determine the length of the tuple, then start at 0 and loop your way through the tuple items by referring to their indexs
+(NB:Remember to increase the index by 1 after each iteration).
+
+EXAMPLE print all items using a while loop to go through all the index numbers:
+SYNTAX
+thistuple=("apple","banana","cherry")
+   i=0
+   while i<len(thistuple):
+   print(thistuple[i])
+   i=i+1
+YOU CAN JOIN TWO TUPLES USING THE + OPERATOR
+tuple1=("a","b","c")
+tuple2=("1,2,3)
+tuple3=tuple1+tuple2
+print(tuple3)
+
+TUPLE METHODS:
+count() returns the number of times a specified value occurs in a tuple
+index() searches the tuple for a specified value and returns the position of where  it was found
+
+INTRODUCTION TO DICTIONARIES
+A collection of key values pairs, allows us to store and retrieve values based on the keys on where to map and organize data efficiently.
+SYNTAX
+dict_name={key1:value1,key2:value2:}
+Example 
+car={'brand':'Audi','model':'q7'}
+Dictionary can not have two items with the same key
+Key-value that comes last will always be available in a dictionary
+Dictionaries are mutable
+
+LENGTH OF A DICTIONARY
+Can be determined using the len() function
+Gives the count of key-value pairs of a dictionary
+EXAMPLE 
+car={'brand','audi','model','97'}
+len(car)
+THE DICT() CONSTRUCTOR
+Alternative way to create a dictionary
+Keys are not rubbed within single or double quotes also in place of colunms we have equal signs.
+INTRODUCTION TO LIST COMPREHENSION
+Provides a shorter syntax while creating a new list from the existing list on basics of some condition
+EXAMPLE
+names=['John','Jame','Emmy','Michael','Jimmy']
+j_names=[]
+for name in names
+
+
+   
+
 
 
 
